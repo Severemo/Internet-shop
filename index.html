@@ -7,15 +7,33 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/menu.css">
 </head>
 
 <body>
-<header>
-	
-</header>	
+	<header name="top">
+
+		<div class="navbar-component">
+
+			<div class="navbar area">
+
+				<a href="#" class="brand">Brand</a>
+
+				<nav role="navigation" id="navigation" class="list">
+					<a href="#" class="item -link">Home</a>
+					<a href="#" class="item -link">Shop</a>
+					<a href="#" class="item -link">Prise</a>
+					<a href="#" class="item -link">How To Buy</a>
+					<a href="#" class="item -link">About us</a>
+					<a href="#" class="fab fa-twitter social"></a>
+					<a href="#" class="fab fa-facebook-f social"></a>
+				</nav>
+			</div>
+		</div>
+	</header>
 <main>
 	<div class="register">
-		
+
 	</div>
 <section class="goods">
 			<div class="wrapper">
@@ -668,26 +686,26 @@
 	</div>
 </footer>
 
-	<script type="text/javascript"> 
-		var m_id = new Array('s_mn_1','s_mn_2','s_mn_5','s_mn_3','s_mn_4'); 
-		listStart = function allclose() { 
-		  for (i=0; i < m_id.length; i++){ 
-		  document.getElementById(m_id[i]).style.display = "none"; 
-		  } 
-		} 
-		function menuOpen(id){ 
-		  for (i=0; i < m_id.length; i++){ 
-		  if (id != m_id[i]){ 
-		  document.getElementById(m_id[i]).style.display = "none"; 
-		  } 
-		  } 
-		  if (document.getElementById(id).style.display == "block"){ 
-		  document.getElementById(id).style.display = "none"; 
-		  }else{ 
-		  document.getElementById(id).style.display = "block"; 
-		  } 
-		} 
-		window.onload=listStart; 
+	<script type="text/javascript">
+		var m_id = new Array('s_mn_1','s_mn_2','s_mn_5','s_mn_3','s_mn_4');
+		listStart = function allclose() {
+		  for (i=0; i < m_id.length; i++){
+		  document.getElementById(m_id[i]).style.display = "none";
+		  }
+		}
+		function menuOpen(id){
+		  for (i=0; i < m_id.length; i++){
+		  if (id != m_id[i]){
+		  document.getElementById(m_id[i]).style.display = "none";
+		  }
+		  }
+		  if (document.getElementById(id).style.display == "block"){
+		  document.getElementById(id).style.display = "none";
+		  }else{
+		  document.getElementById(id).style.display = "block";
+		  }
+		}
+		window.onload=listStart;
 </script>
 
 
@@ -720,6 +738,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src='js/jquery-3.2.1.min.js'></script>
 	<script src="js/script.js"></script>
+	<script src="js/menu.js">
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
